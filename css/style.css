@@ -515,9 +515,11 @@ header.without-border .navbar-default {
 #container {
   padding-top: 125px;
 }
+
 #container.without-padding {
   padding-top: 0;
 }
+
 p {
   font-size: 13px;
   color: #888888;
