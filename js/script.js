@@ -656,7 +656,7 @@ $(document).ready(function($) {
 });
 
 function mapcallFunction() {
-	var contact = {"lat":"-33.880641", "lon":"151.204298"}; //Change a map coordinate here!
+	var contact = {"lat":"37.3", "lon":"-121.9"}; //Change a map coordinate here!
 
 	var mapContainer = $('#map');
 	mapContainer.gmap3({
@@ -669,7 +669,7 @@ function mapcallFunction() {
 		latLng: [contact.lat, contact.lon],
 		map:{
 			center: [contact.lat, contact.lon],
-			zoom: 16
+			zoom: 12
 			},
 		},
 		{action: 'setOptions', args:[{scrollwheel:false}]}
